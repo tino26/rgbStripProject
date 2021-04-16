@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#BAB1B1"
+        android:padding="10dp"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="6">
+
+        <ToggleButton
+            android:id="@+id/OFF"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:textOn="OFF"
+            android:textSize="18sp"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <ToggleButton
+            android:id="@+id/ON"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="@color/design_default_color_error"
+            android:textColor="@color/white"
+            android:textOff="ON"
+            android:textOn="ON"
+            android:textSize="18sp"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+
+        <!--        SPECIAL-->
+        <ToggleButton
+            android:id="@+id/White"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textOff="W"
+            android:textOn="W"
+            android:textSize="25sp"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <!-- REGULAR COLORS -->
+        <!--        RED COLUMN-->
+        <ToggleButton
+            android:id="@+id/RedButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#eb1f15"
+            android:textColor="#eb1f15"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ToggleButton
+            android:id="@+id/redButton2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#ff1d05"
+            android:textColor="#ff1d05"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <ToggleButton
+            android:id="@+id/redButton3"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#fa4f2a"
+            android:textColor="#fa4f2a"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <ToggleButton
+            android:id="@+id/redButton4"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#ff812b"
+            android:textColor="#ff812b"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <ToggleButton
+            android:id="@+id/redButton5"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#f2c524"
+            android:textColor="#f2c524"
+            app:layout_column="0"
+            app:layout_row="5" />
+
+        <!--        GREEN COLUMN-->
+        <ToggleButton
+            android:id="@+id/GreenButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#12b52a"
+            android:textColor="#12b52a"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <ToggleButton
+            android:id="@+id/greenButton2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#30d960"
+            android:textColor="#30d960"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <ToggleButton
+            android:id="@+id/greenButton3"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#25e6cf"
+            android:textColor="#25e6cf"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <ToggleButton
+            android:id="@+id/greenButton4"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#349ca3"
+            android:textColor="#349ca3"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <ToggleButton
+            android:id="@+id/greenButton5"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#30767a"
+            android:textColor="#30767a"
+            app:layout_column="1"
+            app:layout_row="5" />
+
+        <!--        BLUE COLUMN-->
+        <ToggleButton
+            android:id="@+id/BlueButton"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#2328c4"
+            android:textColor="#2328c4"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <ToggleButton
+            android:id="@+id/blueButton2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#0f51f5"
+            android:textColor="#0f51f5"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <ToggleButton
+            android:id="@+id/blueButton3"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#772480"
+            android:textColor="#772480"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <ToggleButton
+            android:id="@+id/blueButton4"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#a81192"
+            android:textColor="#a81192"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <ToggleButton
+            android:id="@+id/blueButton5"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/circle_button"
+            android:backgroundTint="#9a0bb0"
+            android:padding="15dp"
+            android:textColor="#9a0bb0"
+            app:layout_column="2"
+            app:layout_row="5" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="138dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:max="255"
+        android:progress="50"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout"
+        app:layout_constraintTop_toTopOf="@+id/gridLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RgbControlTabbed</string>
+    <string name="tab_text_1">Remote</string>
+    <string name="tab_text_2">Color Picker</string>
+    <string name="tab_text_3">Schedule</string>
+</resources>

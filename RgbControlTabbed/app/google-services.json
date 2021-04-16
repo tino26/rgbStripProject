@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "871493789956",
+    "firebase_url": "https://rgbstrip-9c942-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rgbstrip-9c942",
+    "storage_bucket": "rgbstrip-9c942.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871493789956:android:dac2bfeeb7b2a05f2e8851",
+        "android_client_info": {
+          "package_name": "com.example.rgbcontroltabbed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871493789956-293ius1hhhvq3u0qup3nc9mkusm1kt8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbAUOR3rAEKLlDTtBQ8tgT2e2LX-M0Ti8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871493789956-293ius1hhhvq3u0qup3nc9mkusm1kt8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
